@@ -66,6 +66,10 @@ header{
     margin-right: 0;
 }
 
+h3{
+    margin-bottom: 20px;
+}
+
 #generator{
     display: flex;
     flex-direction: column;
@@ -90,18 +94,6 @@ header{
     opacity: 0.9;
 }
 
-#generator input{
-    width: 60%;
-    border-radius: 10px;
-    border:1px solid white;
-    margin-bottom: 18px;
-    padding: 4px 0;
-    padding-left: 20px;
-    font-weight: bold;
-    font-style: italic;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.324);
-}
-
 #generator button{
     width: 60%;
     border-radius: 10px;
@@ -111,8 +103,22 @@ header{
     border: 1px solid white;
     background: rgba(255, 255, 255, 0.1);
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
+.color{
+    height: 100px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+#generator span{
+    color: var(--color-white);
+    font-style: italic;
+    margin: 10px 0;
+    text-align: center;
+}
 
 /* FOOTER */
 
@@ -161,7 +167,7 @@ footer span{
         width: 60%;
     }
 
-    #generator input, #generator button{
+    #generator button{
         width: 70%;
     }
 
